@@ -1,0 +1,30 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtualenv
+venv/
+env/
+.tldr-env/  
+
+# Django stuff
+*.sqlite3
+*.log
+*.pot
+*.pyc
+local_settings.py
+db.sqlite3
+media/
+staticfiles/
+static/
+
+# Secret files
+.env
+.env.*
+
+# VSCode, PyCharm etc.
+.vscode/
+.idea/
+
+/data
